@@ -10,6 +10,7 @@ package com.mycompany.atvddrepo;
  */
 public class Endereco {
     
+    private Cidade cidade;
     private String rua = "";
     private int num = 0;
 
@@ -27,6 +28,14 @@ public class Endereco {
 
     public void setNum(int num) {
         this.num = num;
+    }
+
+    public Cidade getCidade() {
+        return cidade;
+    }
+
+    public void setCidade(Cidade cidade) {
+        this.cidade = cidade;
     }
 
     @Override

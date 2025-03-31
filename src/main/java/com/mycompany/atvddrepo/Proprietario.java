@@ -12,6 +12,7 @@ public class Proprietario {
     
     private int cpfProp = 0;
     private String nomeProp = " ";
+    private Endereco endereco;
 
     public int getCpfProp() {
         return cpfProp;
@@ -29,9 +30,20 @@ public class Proprietario {
         this.nomeProp = nomeProp;
     }
 
+    public Endereco getEndereco() {
+        return endereco;
+    }
+
+    public void setEndereco(Endereco endereco) {
+        this.endereco = endereco;
+    }
+
     @Override
     public String toString() {
-        return "Proprietario{" + "cpfProp=" + cpfProp + "\nnomeProp=" + nomeProp + '}';
+        return "Proprietario{" + "cpfProp=" + cpfProp + ", nomeProp=" + nomeProp + ", endereco=" + endereco + '}';
     }
+    
+    
+
 
 }

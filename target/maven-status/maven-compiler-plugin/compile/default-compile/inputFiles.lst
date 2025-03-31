@@ -1,1 +1,6 @@
-/home/edilson/NetBeansProjects/AtvddRepo/src/main/java/com/mycompany/atvddrepo/AtvddRepo.java
+/home/edilson/NetBeansProjects/AtvddRepo/src/main/java/com/mycompany/atvddrepo/Cidade.java
+/home/edilson/NetBeansProjects/AtvddRepo/src/main/java/com/mycompany/atvddrepo/Endereco.java
+/home/edilson/NetBeansProjects/AtvddRepo/src/main/java/com/mycompany/atvddrepo/Imovel.java
+/home/edilson/NetBeansProjects/AtvddRepo/src/main/java/com/mycompany/atvddrepo/Locacao.java
+/home/edilson/NetBeansProjects/AtvddRepo/src/main/java/com/mycompany/atvddrepo/Proprietario.java
+/home/edilson/NetBeansProjects/AtvddRepo/src/main/java/com/mycompany/atvddrepo/TstLocacao.java

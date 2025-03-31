@@ -14,6 +14,32 @@ public class Locacao {
     
     private Date dataInicio = new Date();
     private Date dataFim = new Date();
+    private Proprietario proprietario;
+    private Imovel imovel;
+    
+    public void validarEndereco(){
+        if(proprietario != null && imovel != null &&
+           proprietario.getEndereco().getRua().equals(imovel.getEndereco().getRua()) &&
+           proprietario.getEndereco().getNum() == imovel.getEndereco().getNum()){
+           System.out.println("Endereço do proprietário não pode ser o mesmo endereço do imovel");
+        }
+    }
+
+    public Proprietario getProprietario() {
+        return proprietario;
+    }
+
+    public void setProprietario(Proprietario proprietario) {
+        this.proprietario = proprietario;
+    }
+
+    public Imovel getImovel() {
+        return imovel;
+    }
+
+    public void setImovel(Imovel imovel) {
+        this.imovel = imovel;
+    }
 
     public Date getDataInicio() {
         return dataInicio;

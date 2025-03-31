@@ -1,1 +1,6 @@
-com/mycompany/atvddrepo/AtvddRepo.class
+com/mycompany/atvddrepo/Proprietario.class
+com/mycompany/atvddrepo/Imovel.class
+com/mycompany/atvddrepo/Cidade.class
+com/mycompany/atvddrepo/TstLocacao.class
+com/mycompany/atvddrepo/Endereco.class
+com/mycompany/atvddrepo/Locacao.class
